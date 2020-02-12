@@ -1,6 +1,5 @@
 def square_array(array)
-  squared = []
- a = (array.each  {|numbers| numbers * numbers})
- squared << a
-puts squared.inspect
+
+ array.each  {|numbers| numbers ** 2})
+ 
 end
